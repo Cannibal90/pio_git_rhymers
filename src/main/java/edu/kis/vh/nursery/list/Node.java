@@ -1,11 +1,8 @@
 package edu.kis.vh.nursery.list;
 
 /**
- * @param1 Value assigned to this Node
- * @param2 variable which indicate to previous Node
- * @param3 variable which indicate to next Node
+ * Class which is a key part for IntLinkedList class
  */
-
 public class Node {
 
 	private int value;
@@ -20,14 +17,14 @@ public class Node {
 		value = i;
 	}
 	/**
-	 * Function to get a value for Node
+	 *@return value for Node
 	 */
 	public int getValue() {
 		return value;
 	}
 
 	/**
-	 * Function to get a previous Node
+	 *@return previous Node
 	 */
 	public Node getPrev() {
 		return prev;
@@ -35,13 +32,14 @@ public class Node {
 
 	/**
 	 * Function to set a previous Node
+	 * @param prev Node which will be set as previous Node
 	 */
 	public void setPrev(Node prev) {
 		this.prev = prev;
 	}
 
 	/**
-	 * Function to get a next Node
+	 * @return next Node
 	 */
 	public Node getNext() {
 		return next;
@@ -49,6 +47,7 @@ public class Node {
 
 	/**
 	 * Function to set a next Node
+	 * @param next Node which will be set as next Node
 	 */
 	public void setNext(Node next) {
 		this.next = next;
